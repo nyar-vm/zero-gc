@@ -1,11 +1,10 @@
 [package]
-name = "sub_projects"
-publish = false
+name = "zgc"
 version = "0.0.0"
 authors = ["Aster <192607617@qq.com>"]
-description = "..."
-repository = "https://github.com/oovm/sub_projects"
-documentation = "https://docs.rs/sub_projects"
+description = "Concurrent GC in Rust"
+repository = "https://github.com/nyar-vm/zero-gc"
+documentation = "https://docs.rs/zgc"
 readme = "Readme.md"
 license = "MPL-2.0"
 edition = "2021"
