@@ -7,5 +7,6 @@
 
 mod errors;
 mod gc_head;
+mod barrier;
 
 pub use crate::errors::{Error, Result};

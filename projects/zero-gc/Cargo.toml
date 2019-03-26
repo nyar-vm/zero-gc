@@ -11,6 +11,7 @@ edition = "2021"
 exclude = ["package.json", "tests/**"]
 
 [dependencies]
+bitflags = "2.3.1"
 
 [dev-dependencies]
 
