@@ -1,8 +1,8 @@
 [package]
 name = "zgc"
-version = "0.0.0"
+version = "0.0.1"
 authors = ["Aster <192607617@qq.com>"]
-description = "Concurrent GC in Rust"
+description = "Pauseless GC in Rust"
 repository = "https://github.com/nyar-vm/zero-gc"
 documentation = "https://docs.rs/zgc"
 readme = "Readme.md"
@@ -11,7 +11,7 @@ edition = "2021"
 exclude = ["package.json", "tests/**"]
 
 [dependencies]
-bitflags = "2.3.1"
+#bitflags = "2.3.1"
 
 [dev-dependencies]
 
